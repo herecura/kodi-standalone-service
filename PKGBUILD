@@ -6,7 +6,7 @@ pkgrel=1
 pkgdesc="Systemd service to run kodi in stand-alone mode without a DE"
 # Do NOT attempt to use this package on Arch ARM! This is only for x86_64/i686.
 # You have been warned.
-arch=('x86_64' 'i686')
+arch=('x86_64')
 url="https://github.com/graysky2/kodi-standalone-service"
 license=('GPL')
 depends=('systemd' 'xorg-server' 'xorg-xinit' 'kodi' 'polkit')
